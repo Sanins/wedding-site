@@ -15,6 +15,7 @@ interface HomeProps {
 
 
 export default function Home(props: HomeProps) {
+  console.log('props', props);
   return (
     <main className={styles.main}>
       <div className={styles.description}>
